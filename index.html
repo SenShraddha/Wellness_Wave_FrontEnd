@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Wave</title>
+    <link rel="Stylesheet" href="/fontawesome/all.min.css" />
+    <script src="/fontawesome/all.min.css.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <header> 
+        <a href="" class="text_logo">Wellness Wave</a>
+       <ul class="navigation">
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">CHATBOT</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">LOGIN</a></li>
+       </ul>
+       <button class="toggle_btn"><i class="fas fa-bars"></i></button>
+    </header>
+    <main>
+        <article>
+            <img src="img_4.avif" alt="">
+            <div class="show_box">
+                <h1 class="show_title">Wellness Wave</h1>
+                <h3>Self care is self love</h3>
+                <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make healthy choices. Mental health is important at every stage of life, from childhood and adolescence through adulthood</p>
+                <div class="action">
+                    <a href="" class="contact">CONTACT</a>
+                    <a href="" class="read_more">READ MORE &rAarr;</a>
+                </div>
+            </div>
+            <img src="img_3.avif" alt="">
+        </article>
+    </main>
+    
+    <script>
+        const btn = document.querySelector(".toggle_btn");
+        btn.addEventListener("click",() =>
+         document.querySelector('.navigation').classList.toggle("active"))
+    </script>
+</body>
+</html>
